@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(159, 255, 223);
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(153, 153, 237);
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1% 0;
+    text-align: center;
+}
+.conteiner{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.produto{
+    background-color: aliceblue;
+    box-shadow: 0 0 10px brown;
+    margin: 20px;                  
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    border-radius: 8%;
+}
+.produto img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.produto h2{
+    font-size: 1.5em;
+    margin: 10px 0; 
+}
+.produto p {
+    font-size: 1.2em;
+    color: black;
+}
+.produto a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+    text-decoration: none;
+}
+
+
+.link{
+    margin-top: 1em;
+}
